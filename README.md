@@ -10,7 +10,9 @@ The two programs accept input files of standard PPM format (the magic number at 
 The programs are intended to process header in the following format:
 
 P6
+
 w h
+
 255
 
 where 'w' and 'h' are the width and height, and 255 is the max channel value of the PPM image. Multiple lines of comments starting with '#' can be inserted in between "P6" and "w h", and "w h" and "255". If width or height is less than 1, or if the max channel value is not "255", the input PPM file will be deemed invalid and the program will terminate.
