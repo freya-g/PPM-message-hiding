@@ -1,6 +1,6 @@
 # Message Hiding and Unhiding in PPM files
 ### Language: C
-### By Yifei (Freya) Gao
+### By Freya Gao
 
 
 This directory contains 2 programs: hide and unhide. The "hide" program takes a message from the standard input and encrypts it into the input PPM file, where the "unhide" program decodes and retrieves the message from the PPM file.
